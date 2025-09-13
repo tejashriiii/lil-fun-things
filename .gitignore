@@ -1,0 +1,9 @@
+# Compiled binary files
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+
