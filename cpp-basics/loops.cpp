@@ -3,9 +3,9 @@
 using namespace std;
 
 int main(){
-	int a;
+	int a=0;
 	cout << "give number" << endl;
-	cin >> a;
+//	cin >> a;
 	if (a % 2==0 && a > 0) { //every if needs condition in (), no ; to end only {}
 		cout << "no is even and positive" << endl;
 	}
@@ -20,6 +20,30 @@ int main(){
 			cout << "odd and negative" << endl;
 		}
 	}
+
+
+
+
+	// for loops
+	for(int m=0;m <=20; m+=3){
+		cout << m << endl;
+	}
+
+	//while loops
+	while (a <=50){
+		int i=2;	
+
+		for (i; i < a; i++){
+			if (a%i ==0){ break;} }
+		if (i == a){
+			cout << a << endl;
+		 //break is used to abruptly stop everything youre doing after a condition is met, continue is, leaving this condition continue doing everything.
+			
+	}
+		a++;
+		
+	}
+	
 	return 0;
 
 }
