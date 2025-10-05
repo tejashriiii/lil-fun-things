@@ -7,6 +7,6 @@
 *.obj
 *.o
 
-# Ignore any file with no extension (likely a compiled binary)
-*.[!.]*    # ignore files with no dot in their name
-
+[^.]*  
+!*/
+!.gitignore
